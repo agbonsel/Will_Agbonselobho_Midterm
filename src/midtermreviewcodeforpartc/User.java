@@ -58,4 +58,9 @@ public class User
         password = givenPass;
     }
     
+    public void UserNameValidator(String username) {
+        username = getName();
+boolean valid = (username != null);
+        
+    }
 }

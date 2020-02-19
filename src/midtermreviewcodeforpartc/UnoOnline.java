@@ -42,6 +42,7 @@ public class UnoOnline
         Scanner sc = new Scanner(System.in);
         System.out.println("please enter your desired user name:");
         String userName = sc.nextLine();
+        
         boolean validPassword=false;
         String password="";
         while(!validPassword)
